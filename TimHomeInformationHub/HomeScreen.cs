@@ -15,6 +15,8 @@ namespace TimHomeInformationHub
         public HomeScreen()
         {
             InitializeComponent();
+            this.headerLabel.BackColor = Color.Transparent;
+            this.BackgroundImage = Properties.Resources.knights;
             this.WindowState = FormWindowState.Maximized;
             this.FormClosed += Exit_FormClosed;
         }

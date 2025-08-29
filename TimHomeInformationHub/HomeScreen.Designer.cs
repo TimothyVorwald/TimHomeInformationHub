@@ -28,13 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.headerLabel = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // headerLabel
+            // 
+            this.headerLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.headerLabel.AutoSize = true;
+            this.headerLabel.BackColor = System.Drawing.Color.Red;
+            this.headerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLabel.Location = new System.Drawing.Point(454, 9);
+            this.headerLabel.Name = "headerLabel";
+            this.headerLabel.Size = new System.Drawing.Size(606, 54);
+            this.headerLabel.TabIndex = 0;
+            this.headerLabel.Text = "Tim Home Information Hub";
+            // 
+            // HomeScreen
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(1803, 505);
+            this.Controls.Add(this.headerLabel);
+            this.Name = "HomeScreen";
+            this.Text = "Tim Home Information Hub";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label headerLabel;
     }
 }
 
