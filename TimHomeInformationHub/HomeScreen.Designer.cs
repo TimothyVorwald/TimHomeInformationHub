@@ -46,10 +46,10 @@
             // 
             // creditCardBtn
             // 
-            this.creditCardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.creditCardBtn.Location = new System.Drawing.Point(106, 125);
+            this.creditCardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creditCardBtn.Location = new System.Drawing.Point(145, 190);
             this.creditCardBtn.Name = "creditCardBtn";
-            this.creditCardBtn.Size = new System.Drawing.Size(191, 180);
+            this.creditCardBtn.Size = new System.Drawing.Size(152, 115);
             this.creditCardBtn.TabIndex = 1;
             this.creditCardBtn.Text = "Credit Card Info";
             this.creditCardBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
