@@ -1,6 +1,6 @@
 ﻿namespace TimHomeInformationHub
 {
-    partial class Form1
+    partial class HomeScreen
     {
         /// <summary>
         /// Required designer variable.

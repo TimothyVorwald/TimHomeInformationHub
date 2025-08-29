@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace TimHomeInformationHub
 {
-    public partial class Form1 : Form
+    public partial class HomeScreen : Form
     {
-        public Form1()
+        public HomeScreen()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+            this.FormClosed += Exit_FormClosed;
+        }
+
+        private void Exit_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
