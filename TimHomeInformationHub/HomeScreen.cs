@@ -15,6 +15,7 @@ namespace TimHomeInformationHub
         public HomeScreen()
         {
             InitializeComponent();
+            this.creditCardBtn.Image = Properties.Resources.dollar;
             this.headerLabel.BackColor = Color.Transparent;
             this.BackgroundImage = Properties.Resources.knights;
             this.WindowState = FormWindowState.Maximized;

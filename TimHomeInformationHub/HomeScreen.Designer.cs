@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.headerLabel = new System.Windows.Forms.Label();
+            this.creditCardBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // headerLabel
@@ -43,12 +44,25 @@
             this.headerLabel.TabIndex = 0;
             this.headerLabel.Text = "Tim Home Information Hub";
             // 
+            // creditCardBtn
+            // 
+            this.creditCardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creditCardBtn.Location = new System.Drawing.Point(106, 125);
+            this.creditCardBtn.Name = "creditCardBtn";
+            this.creditCardBtn.Size = new System.Drawing.Size(191, 180);
+            this.creditCardBtn.TabIndex = 1;
+            this.creditCardBtn.Text = "Credit Card Info";
+            this.creditCardBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.creditCardBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.creditCardBtn.UseVisualStyleBackColor = true;
+            // 
             // HomeScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1803, 505);
+            this.Controls.Add(this.creditCardBtn);
             this.Controls.Add(this.headerLabel);
             this.Name = "HomeScreen";
             this.Text = "Tim Home Information Hub";
@@ -60,6 +74,7 @@
         #endregion
 
         private System.Windows.Forms.Label headerLabel;
+        private System.Windows.Forms.Button creditCardBtn;
     }
 }
 
